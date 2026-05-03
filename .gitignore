@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+
+# Environment variables
+server/.env
+.env
+
+# Database
+server/prisma/dev.db
+server/prisma/dev.db-journal
+server/dev.db
+server/dev.db-journal
+
+# Uploads (temp files)
+server/uploads/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
